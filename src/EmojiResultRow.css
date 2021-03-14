@@ -34,3 +34,7 @@
 .component-emoji-result-row:hover .info {
   display: inline-block;
 }
+
+.remove {
+  background-color: red;
+}

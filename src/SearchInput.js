@@ -9,10 +9,12 @@ export default class SearchInput extends PureComponent {
   };
 
   handleChange = event => {
+    console.log("dew")
     this.props.textChange(event);
   };
 
   render() {
+      console.log("search");
     return (
       <div className="component-search-input">
         <div>
