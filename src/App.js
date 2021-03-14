@@ -58,7 +58,7 @@ export default class App extends PureComponent {
 		        return true;
 		      }*/
 		      //return false;
-		    }).slice(0, 1);
+		    }).slice(0, 3);
 		  	console.log(sta);
 			this.setState({
 				searchedFilter: sta,

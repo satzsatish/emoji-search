@@ -30,7 +30,7 @@ export default class EmojiResults extends PureComponent {
             removeEmoji={}
           />*/
           
-          <div className="component-emoji-result-row copy-to-clipboard" data-clipboard-text={this.props.symbol}>
+          <div className="component-emoji-result-row copy-to-clipboard" data-clipboard-text={emojiData.title}>
           <img alt={emojiData.title} src={`//cdn.jsdelivr.net/emojione/assets/png/${emojiData.symbol.codePointAt(0).toString(16)}.png`} />
           <span className="title">{emojiData.title}</span>
           <span className="info">Click to copy emoji</span>
